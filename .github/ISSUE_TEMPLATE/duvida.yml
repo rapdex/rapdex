@@ -1,0 +1,11 @@
+name: Dúvida
+description: Uma pergunta sobre como usar
+title: "[dúvida] "
+labels: ["dúvida"]
+body:
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Sua pergunta
+    validations:
+      required: true

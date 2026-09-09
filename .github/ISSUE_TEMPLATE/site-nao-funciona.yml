@@ -1,0 +1,41 @@
+name: Não funciona em um site
+description: A velocidade não muda, o painel não aparece ou o vídeo ignora o Rapdex
+title: "[site] "
+labels: ["site quebrado"]
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Domínio do site
+      description: Só o domínio, sem a URL completa. Ex.- udemy.com
+      placeholder: exemplo.com
+    validations:
+      required: true
+  - type: dropdown
+    id: sintoma
+    attributes:
+      label: O que acontece
+      options:
+        - A velocidade não muda
+        - Muda e volta sozinha para 1x
+        - O selo não aparece no vídeo
+        - O áudio some ao acelerar
+        - Os atalhos de teclado não respondem
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes
+      description: O que você fez, o que esperava e o que aconteceu.
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da extensão
+      placeholder: "0.1.0"
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador e sistema
+      placeholder: Chrome 141 no Windows 11
