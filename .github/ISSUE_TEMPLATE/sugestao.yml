@@ -1,16 +1,16 @@
-name: Sugestão
-description: Uma ideia de melhoria para o Rapdex
+name: "Sugestão · Suggestion"
+description: "Uma ideia de melhoria · An idea to improve Rapdex"
 title: "[ideia] "
 labels: ["sugestão"]
 body:
   - type: textarea
     id: problema
     attributes:
-      label: Que incômodo isso resolve
-      description: Descreva a situação em que você sentiu falta, não a solução.
+      label: Que incômodo isso resolve · What annoyance does it solve
+      description: "Descreva a situação, não a solução · Describe the situation, not the solution"
     validations:
       required: true
   - type: textarea
     id: ideia
     attributes:
-      label: Como você imagina que funcionaria
+      label: Como funcionaria · How it would work

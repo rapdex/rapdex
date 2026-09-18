@@ -1,11 +1,11 @@
-name: Dúvida
-description: Uma pergunta sobre como usar
+name: "Dúvida · Question"
+description: "Uma pergunta sobre como usar · A question about using Rapdex"
 title: "[dúvida] "
 labels: ["dúvida"]
 body:
   - type: textarea
     id: pergunta
     attributes:
-      label: Sua pergunta
+      label: Sua pergunta · Your question
     validations:
       required: true

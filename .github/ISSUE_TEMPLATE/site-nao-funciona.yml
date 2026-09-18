@@ -1,41 +1,41 @@
-name: Não funciona em um site
-description: A velocidade não muda, o painel não aparece ou o vídeo ignora o Rapdex
+name: "Não funciona em um site · Does not work on a site"
+description: "A velocidade não muda ou o vídeo ignora o Rapdex · Speed does not change or the video ignores Rapdex"
 title: "[site] "
 labels: ["site quebrado"]
 body:
   - type: input
     id: site
     attributes:
-      label: Domínio do site
-      description: Só o domínio, sem a URL completa. Ex.- udemy.com
+      label: Domínio do site · Site domain
+      description: "Só o domínio, sem a URL completa · Domain only, not the full URL"
       placeholder: exemplo.com
     validations:
       required: true
   - type: dropdown
     id: sintoma
     attributes:
-      label: O que acontece
+      label: O que acontece · What happens
       options:
-        - A velocidade não muda
-        - Muda e volta sozinha para 1x
-        - O selo não aparece no vídeo
-        - O áudio some ao acelerar
-        - Os atalhos de teclado não respondem
-        - Outro
+        - "A velocidade não muda · Speed does not change"
+        - "Muda e volta sozinha para 1x · Changes then resets to 1x"
+        - "O selo não aparece no vídeo · The badge does not appear"
+        - "O áudio some ao acelerar · Audio disappears when speeding up"
+        - "Os atalhos não respondem · Keyboard shortcuts do not respond"
+        - "Outro · Other"
     validations:
       required: true
   - type: textarea
     id: detalhes
     attributes:
-      label: Detalhes
-      description: O que você fez, o que esperava e o que aconteceu.
+      label: Detalhes · Details
+      description: "O que você fez, o que esperava, o que aconteceu · What you did, expected and got"
   - type: input
     id: versao
     attributes:
-      label: Versão da extensão
+      label: Versão da extensão · Extension version
       placeholder: "0.1.0"
   - type: input
     id: navegador
     attributes:
-      label: Navegador e sistema
-      placeholder: Chrome 141 no Windows 11
+      label: Navegador e sistema · Browser and OS
+      placeholder: Chrome 148 no Linux

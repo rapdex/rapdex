@@ -8,6 +8,10 @@ qualquer player HTML5.
 
 Este repositório é o **canal público de suporte**. O código não vive aqui.
 
+> **In English:** Rapdex is a Chrome extension to speed up videos and control
+> playback speed on any site. This repository is the public support channel —
+> the code does not live here. Issue forms are bilingual (Portuguese/English).
+
 ## O que o Rapdex faz de diferente
 
 - **Termine na hora que você precisa** — informe o horário e ele calcula a velocidade necessária.
