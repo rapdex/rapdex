@@ -49,6 +49,8 @@ estar mapeado.
 
 ## Privacidade
 
+**[Política de Privacidade completa · Full Privacy Policy](PRIVACIDADE.md)**
+
 O Rapdex não coleta nada. Sem conta, sem servidor, sem rastreamento, sem
 anúncios. As estatísticas de tempo recuperado ficam apenas no seu navegador.
 
